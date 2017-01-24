@@ -1,0 +1,14 @@
+﻿tre olika grejer:
+
+göra en predictor för hur mycket nätverket kommer användas 
+- supervised, regression
+- använda time series ARIMA, eller något svårare? regression?
+
+classficera om en användare är business eller leisure
+- unsupervised, classification
+- hitta två cluster?
+- silhouette scores med k-means clustering? 
+
+hitta anomalies
+- hitta outliers?
+- PCA eller robust PCA? Något enklare kanske, glidande medelvärde?
