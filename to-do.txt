@@ -4,6 +4,12 @@ göra en predictor för hur mycket nätverket kommer användas
 - supervised, regression
 - använda time series ARIMA, eller något svårare? regression?
 
+- Hittat en helt ok predictor men den ger såklart samma värde för identiska data-points.
+- Skulle jag kunna introducera lite randomness till denna predictorn (kanske sampla från en normalfördelning med medelvärde och standardavvikelse som är som är från training datat?)
+- Eller ska jag göra min modell att den beror på ett dygn bakåt? Typ vikta predictorn 50% och värdet bakåt med 50%?. Då skulle denna viktning försvinna ju längre bort man kommer och gå mot "medelvärdet" som är predictat av predictorn. 
+
+
+
 classficera om en användare är business eller leisure
 - unsupervised, classification
 - hitta två cluster?
@@ -12,3 +18,5 @@ classficera om en användare är business eller leisure
 hitta anomalies
 - hitta outliers?
 - PCA eller robust PCA? Något enklare kanske, glidande medelvärde?
+
+
